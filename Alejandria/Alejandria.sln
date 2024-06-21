@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria", "Alejandria.csproj", "{68F0B4D6-A1AD-4D46-B0C8-71C57C41E04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alejandria", "Alejandria.csproj", "{68F0B4D6-A1AD-4D46-B0C8-71C57C41E04C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alejandria.DataAccess", "..\Alejandria.DataAccess\Alejandria.DataAccess.csproj", "{4C08DE50-9C94-4348-836E-53F43FEA57B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Interfaces", "..\Alejandria.Interfaces\Alejandria.Interfaces.csproj", "{66D51155-5374-4740-9011-1D2FBA9AD6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Models", "..\Alejandria.Models\Alejandria.Models.csproj", "{02FE7916-263D-48E1-8A40-21ED7A4B4344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.Services", "..\Alejandria.Services\Alejandria.Services.csproj", "{FBAFBB1F-0401-437B-B8F7-94BF2404E3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alejandria.ViewModels", "..\Alejandria.ViewModels\Alejandria.ViewModels.csproj", "{057F60AC-D110-470B-A9B1-D25985ACFD34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{68F0B4D6-A1AD-4D46-B0C8-71C57C41E04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F0B4D6-A1AD-4D46-B0C8-71C57C41E04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F0B4D6-A1AD-4D46-B0C8-71C57C41E04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C08DE50-9C94-4348-836E-53F43FEA57B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C08DE50-9C94-4348-836E-53F43FEA57B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C08DE50-9C94-4348-836E-53F43FEA57B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C08DE50-9C94-4348-836E-53F43FEA57B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D51155-5374-4740-9011-1D2FBA9AD6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D51155-5374-4740-9011-1D2FBA9AD6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D51155-5374-4740-9011-1D2FBA9AD6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D51155-5374-4740-9011-1D2FBA9AD6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FE7916-263D-48E1-8A40-21ED7A4B4344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FE7916-263D-48E1-8A40-21ED7A4B4344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FE7916-263D-48E1-8A40-21ED7A4B4344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FE7916-263D-48E1-8A40-21ED7A4B4344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAFBB1F-0401-437B-B8F7-94BF2404E3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAFBB1F-0401-437B-B8F7-94BF2404E3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAFBB1F-0401-437B-B8F7-94BF2404E3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAFBB1F-0401-437B-B8F7-94BF2404E3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057F60AC-D110-470B-A9B1-D25985ACFD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057F60AC-D110-470B-A9B1-D25985ACFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057F60AC-D110-470B-A9B1-D25985ACFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057F60AC-D110-470B-A9B1-D25985ACFD34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

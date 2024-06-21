@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fbb2eed83b5e3798f8eb80488f6a146e2c6dec8")]
-[assembly: System.Reflection.AssemblyProductAttribute("Alejandria")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Alejandria")]
+[assembly: System.Reflection.AssemblyProductAttribute("Alejandria.Models")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Alejandria.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
