@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Alejandria.Interfaces\Alejandria.Interfaces.csproj" />
+    <ProjectReference Include="..\Alejandria.Models\Alejandria.Models.csproj" />
+  </ItemGroup>
+
 </Project>

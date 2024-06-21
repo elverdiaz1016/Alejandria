@@ -49,7 +49,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -358,7 +358,7 @@
           "System.Text.Json": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyModel.dll": {
+          "lib/net7.0/_._": {
             "related": ".xml"
           }
         },
@@ -657,7 +657,7 @@
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
@@ -675,7 +675,7 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
+          "ref/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -1131,6 +1131,26 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Alejandria.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Alejandria.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Interfaces.dll": {}
+        }
+      },
+      "Alejandria.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Alejandria.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Models.dll": {}
         }
       }
     }
@@ -3452,10 +3472,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Alejandria.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Interfaces/Alejandria.Interfaces.csproj",
+      "msbuildProject": "../Alejandria.Interfaces/Alejandria.Interfaces.csproj"
+    },
+    "Alejandria.Models/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Models/Alejandria.Models.csproj",
+      "msbuildProject": "../Alejandria.Models/Alejandria.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Alejandria.Interfaces >= 1.0.0",
+      "Alejandria.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
@@ -3494,7 +3526,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj"
+            },
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

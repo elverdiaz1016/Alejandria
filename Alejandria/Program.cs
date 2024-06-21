@@ -1,7 +1,14 @@
+using Alejandria.DataAccess;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AlejandriaDbContext>(opts => {
+    opts.UseSqlServer(
+        builder.Configuration["ConnectionStrings:AlejandriaConnection"]);
+});
 
 var app = builder.Build();
 
