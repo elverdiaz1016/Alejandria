@@ -1,0 +1,12 @@
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Services.deps.json
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Services.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Services.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.AssemblyInfoInputs.cache
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.AssemblyInfo.cs
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.csproj.CoreCompileInputs.cache
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.sourcelink.json
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\refint\Alejandria.Services.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\ref\Alejandria.Services.dll

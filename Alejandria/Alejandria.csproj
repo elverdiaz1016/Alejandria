@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alejandria.DataAccess\Alejandria.DataAccess.csproj" />
+    <ProjectReference Include="..\Alejandria.Models\Alejandria.Models.csproj" />
+    <ProjectReference Include="..\Alejandria.Services\Alejandria.Services.csproj" />
+  </ItemGroup>
+
 </Project>

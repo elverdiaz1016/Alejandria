@@ -1,0 +1,12 @@
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\bin\Debug\net7.0\Alejandria.Interfaces.deps.json
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\bin\Debug\net7.0\Alejandria.Interfaces.dll
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\bin\Debug\net7.0\Alejandria.Interfaces.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.AssemblyInfoInputs.cache
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.AssemblyInfo.cs
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.csproj.CoreCompileInputs.cache
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.sourcelink.json
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.dll
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\refint\Alejandria.Interfaces.dll
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\ref\Alejandria.Interfaces.dll
