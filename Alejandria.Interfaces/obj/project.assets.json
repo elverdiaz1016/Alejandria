@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Alejandria.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Alejandria.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Alejandria.Models/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Models/Alejandria.Models.csproj",
+      "msbuildProject": "../Alejandria.Models/Alejandria.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Alejandria.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\b_dia\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

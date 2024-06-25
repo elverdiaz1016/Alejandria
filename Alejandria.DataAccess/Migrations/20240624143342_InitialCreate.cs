@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Alejandria.Migrations
+namespace Alejandria.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
