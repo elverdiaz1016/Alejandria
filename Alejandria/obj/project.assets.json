@@ -1163,6 +1163,10 @@
       "Alejandria.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Alejandria.Interfaces": "1.0.0",
+          "Alejandria.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Alejandria.Services.dll": {}
         },

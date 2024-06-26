@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Alejandria.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Alejandria.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Interfaces.dll": {}
+        }
+      },
+      "Alejandria.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Alejandria.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Alejandria.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Interfaces/Alejandria.Interfaces.csproj",
+      "msbuildProject": "../Alejandria.Interfaces/Alejandria.Interfaces.csproj"
+    },
+    "Alejandria.Models/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.Models/Alejandria.Models.csproj",
+      "msbuildProject": "../Alejandria.Models/Alejandria.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Alejandria.Interfaces >= 1.0.0",
+      "Alejandria.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\b_dia\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj"
+            },
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

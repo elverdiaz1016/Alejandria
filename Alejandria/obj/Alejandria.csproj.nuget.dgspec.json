@@ -260,7 +260,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj": {
+                "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Interfaces\\Alejandria.Interfaces.csproj"
+              },
+              "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj": {
+                "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Models\\Alejandria.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

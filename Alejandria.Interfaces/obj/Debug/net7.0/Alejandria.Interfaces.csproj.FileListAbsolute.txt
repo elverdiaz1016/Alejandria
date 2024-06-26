@@ -10,3 +10,7 @@ C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.I
 C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\refint\Alejandria.Interfaces.dll
 C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.pdb
 C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\ref\Alejandria.Interfaces.dll
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\bin\Debug\net7.0\Alejandria.Models.dll
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\bin\Debug\net7.0\Alejandria.Models.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandria.Interfaces.csproj.AssemblyReference.cache
+C:\elver\Proyecto Alejandria\Alejandria.Interfaces\obj\Debug\net7.0\Alejandr.761A89A3.Up2Date

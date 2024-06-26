@@ -621,6 +621,9 @@
         }
       },
       "Alejandria.Interfaces/1.0.0": {
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
         "runtime": {
           "Alejandria.Interfaces.dll": {}
         }
