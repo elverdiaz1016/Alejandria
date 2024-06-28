@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Alejandria.Models\Alejandria.Models.csproj" />
+  </ItemGroup>
+
 </Project>
