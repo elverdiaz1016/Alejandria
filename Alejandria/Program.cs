@@ -1,4 +1,8 @@
 using Alejandria.DataAccess;
+using Alejandria.DataAccess.Repositories;
+using Alejandria.Interfaces.IRepositories;
+using Alejandria.Interfaces.IServices;
+using Alejandria.Services.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,15 +14,13 @@ builder.Services.AddDbContext<AlejandriaDbContext>(opts => {
         builder.Configuration["ConnectionStrings:AlejandriaConnection"]);
 });
 
-var app = builder.Build();
+builder.Services.AddScoped<IAutorRepository, AutorRepository>();
+builder.Services.AddScoped<IAutorService, AutorService>();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+builder.Services.AddScoped<ILibroRepository, LibroRepository>();
+builder.Services.AddScoped<ILibroService, LibroService>();
+
+var app = builder.Build();  
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
