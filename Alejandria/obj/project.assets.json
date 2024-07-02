@@ -1173,6 +1173,19 @@
         "runtime": {
           "bin/placeholder/Alejandria.Services.dll": {}
         }
+      },
+      "Alejandria.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Alejandria.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alejandria.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -3488,6 +3501,11 @@
       "type": "project",
       "path": "../Alejandria.Services/Alejandria.Services.csproj",
       "msbuildProject": "../Alejandria.Services/Alejandria.Services.csproj"
+    },
+    "Alejandria.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../Alejandria.ViewModels/Alejandria.ViewModels.csproj",
+      "msbuildProject": "../Alejandria.ViewModels/Alejandria.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3495,12 +3513,14 @@
       "Alejandria.DataAccess >= 1.0.0",
       "Alejandria.Models >= 1.0.0",
       "Alejandria.Services >= 1.0.0",
+      "Alejandria.ViewModels >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\b_dia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3512,7 +3532,8 @@
       "outputPath": "C:\\elver\\Proyecto Alejandria\\Alejandria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\b_dia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3539,6 +3560,9 @@
             },
             "C:\\elver\\Proyecto Alejandria\\Alejandria.Services\\Alejandria.Services.csproj": {
               "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.Services\\Alejandria.Services.csproj"
+            },
+            "C:\\elver\\Proyecto Alejandria\\Alejandria.ViewModels\\Alejandria.ViewModels.csproj": {
+              "projectPath": "C:\\elver\\Proyecto Alejandria\\Alejandria.ViewModels\\Alejandria.ViewModels.csproj"
             }
           }
         }

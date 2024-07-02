@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria.ViewModels")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77827a013241f434369dc76d3153d136080efb22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16befc5a04309fde8b43b6091cb1d5f79edb43b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alejandria.ViewModels")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alejandria.ViewModels")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

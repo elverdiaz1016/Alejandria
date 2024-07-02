@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Alejandria.DataAccess\Alejandria.DataAccess.csproj" />
     <ProjectReference Include="..\Alejandria.Models\Alejandria.Models.csproj" />
     <ProjectReference Include="..\Alejandria.Services\Alejandria.Services.csproj" />
+    <ProjectReference Include="..\Alejandria.ViewModels\Alejandria.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
