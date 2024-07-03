@@ -11,6 +11,7 @@
           "Alejandria.DataAccess": "1.0.0",
           "Alejandria.Models": "1.0.0",
           "Alejandria.Services": "1.0.0",
+          "Alejandria.ViewModels": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0"
         },
         "runtime": {
@@ -634,8 +635,20 @@
         }
       },
       "Alejandria.Services/1.0.0": {
+        "dependencies": {
+          "Alejandria.Interfaces": "1.0.0",
+          "Alejandria.Models": "1.0.0"
+        },
         "runtime": {
           "Alejandria.Services.dll": {}
+        }
+      },
+      "Alejandria.ViewModels/1.0.0": {
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
+        "runtime": {
+          "Alejandria.ViewModels.dll": {}
         }
       }
     }
@@ -1124,6 +1137,11 @@
       "sha512": ""
     },
     "Alejandria.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

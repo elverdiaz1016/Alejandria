@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Alejandria.Services/1.0.0": {
+        "dependencies": {
+          "Alejandria.Interfaces": "1.0.0",
+          "Alejandria.Models": "1.0.0"
+        },
         "runtime": {
           "Alejandria.Services.dll": {}
+        }
+      },
+      "Alejandria.Interfaces/1.0.0": {
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
+        "runtime": {
+          "Alejandria.Interfaces.dll": {}
+        }
+      },
+      "Alejandria.Models/1.0.0": {
+        "runtime": {
+          "Alejandria.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Alejandria.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

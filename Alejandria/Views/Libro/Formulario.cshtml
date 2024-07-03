@@ -1,0 +1,37 @@
+﻿@model ListarBuscarFormLibroViewModel;
+    
+    <form action="Crear_Actualizar" method="post">
+    <div class="container" style="width: 18rem;">
+        <h1 class="text-center">Formulario de Libro</h1>
+        <div class="form-group"  >
+            <input type="number" asp-for="Libro!.Id" hidden />
+
+
+            <label  > Nombre:</label>
+            <input class="form-control" asp-for="Libro!.Nombre" type="text" required />
+            
+            <label> Categoria:</label>
+             <select asp-for="Libro!.Categoria" class="form-select" required>
+                 <option value=""> Seleccionar Categoria</option>
+                <option value="Malo">Malo</option>
+                <option value="Regular">Regular</option>
+                <option value="Bueno">Bueno</option>
+            </select> 
+            <label> Precio:</label>
+            <input class="form-control" asp-for="Libro!.Precio" type="number" min="1" required />
+            <label>Autor: </label>
+            <select asp-for="Libro!.AutorId" class="form-select" required>
+                <option value="">Seleccionar autor</option>
+                @foreach (Autor autor in Model.Autores!)
+                {
+                    <option value="@autor.Id">@autor.Nombre</option>
+                }
+            </select>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success mt-3 " >
+                Guardar Libro
+            </button>
+        </div>
+    </div>
+    </form>

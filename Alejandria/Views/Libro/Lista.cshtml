@@ -1,0 +1,59 @@
+﻿@model ListarBuscarFormLibroViewModel;
+
+<div class="row ">
+    <h3 class="col-xl-7 col-md-7 col-sm-7 col-7">Libros</h3>
+    <div class="bg-white col-xl-5 col-md-5 col-sm-5 col-5 ">
+        <form asp-action="BuscarPorNombre" class="d-flex " role="search">
+            <input asp-for="NombreBuscar" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success " type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+<hr />
+<form class="d-flex float-end">
+    <button class="btn btn-outline-success mb-2 " type="submit" asp-controller="Libro" asp-action="Formulario">
+        Crear
+    </button>
+</form>
+<br />
+<table class="table table-bordered border-success table-success mt-2 table-sm table-striped table-bordered ">
+    <thead>
+        <tr class="opacity-100">
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Autor </th>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Libro libro in Model.Libros! )
+        {
+            <tr>
+                <td class="opacity-75">@libro.Nombre</td>
+                <td>@libro.Categoria</td>
+                <td>@libro.Precio</td>
+                <td>@libro.Autor!.Nombre</td>
+                <td>
+                    <div class="row">
+                        <form asp-action="Eliminar" asp-route-Id="@libro.Id" method="post" class="col-2">
+                            <button type="submit" class="bg-danger ">
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                        </form>
+                        <form asp-action="Formulario" method="get" class="col-1">
+                            <input asp-for=@libro.Id hidden />
+                            <input asp-for="@libro.Nombre" hidden />
+                            <input asp-for="@libro.Precio" hidden />
+                            <input asp-for="@libro.Categoria" hidden />
+                            <input asp-for="@libro.AutorId" hidden />
+                            <button type="submit" class="bg-info">
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

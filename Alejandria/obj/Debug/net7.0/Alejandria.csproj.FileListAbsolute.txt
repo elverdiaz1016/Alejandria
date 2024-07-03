@@ -82,3 +82,5 @@ C:\elver\Proyecto Alejandria\Alejandria\obj\Debug\net7.0\refint\Alejandria.dll
 C:\elver\Proyecto Alejandria\Alejandria\obj\Debug\net7.0\Alejandria.pdb
 C:\elver\Proyecto Alejandria\Alejandria\obj\Debug\net7.0\Alejandria.genruntimeconfig.cache
 C:\elver\Proyecto Alejandria\Alejandria\obj\Debug\net7.0\ref\Alejandria.dll
+C:\elver\Proyecto Alejandria\Alejandria\bin\Debug\net7.0\Alejandria.ViewModels.dll
+C:\elver\Proyecto Alejandria\Alejandria\bin\Debug\net7.0\Alejandria.ViewModels.pdb

@@ -10,3 +10,7 @@ C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\Alejandria.V
 C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\refint\Alejandria.ViewModels.dll
 C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\Alejandria.ViewModels.pdb
 C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\ref\Alejandria.ViewModels.dll
+C:\elver\Proyecto Alejandria\Alejandria.ViewModels\bin\Debug\net7.0\Alejandria.Models.dll
+C:\elver\Proyecto Alejandria\Alejandria.ViewModels\bin\Debug\net7.0\Alejandria.Models.pdb
+C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\Alejandria.ViewModels.csproj.AssemblyReference.cache
+C:\elver\Proyecto Alejandria\Alejandria.ViewModels\obj\Debug\net7.0\Alejandr.82562C1A.Up2Date

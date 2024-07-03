@@ -1,0 +1,15 @@
+﻿@model Autor;
+
+<div class="container" style="width: 18rem;">
+    <h2>Formlario Usuario</h2>
+    <form asp-action="Crear_Actualizar" method="post">
+        <div class="form-group">
+            <input asp-for="Id" class="form-control" hidden />
+            <label asp-for="Nombre">Nombre:</label>
+            <input asp-for="Nombre" class="form-control" required />
+            <label asp-for="Edad">Edad:</label>
+            <input asp-for="Edad" class="form-control" type="number" min="4" max="150" required />
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Guardar Usuario</button>
+    </form>
+</div>

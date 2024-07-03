@@ -75,7 +75,6 @@ namespace Alejandria.Controllers
         {
             try
             {
-                throw new Exception("Hola Arialdo");
                 IQueryable<Autor> autores = await _autorService.BuscarPorNombre(buscarListarViewModel.NombreBuscar!);
                 buscarListarViewModel.Autores = autores;
                 return View("Lista", buscarListarViewModel);

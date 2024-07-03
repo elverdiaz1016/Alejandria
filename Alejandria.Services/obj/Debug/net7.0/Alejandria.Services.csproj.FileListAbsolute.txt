@@ -10,3 +10,9 @@ C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Ser
 C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\refint\Alejandria.Services.dll
 C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.pdb
 C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\ref\Alejandria.Services.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Interfaces.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Models.dll
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Interfaces.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Services\bin\Debug\net7.0\Alejandria.Models.pdb
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandria.Services.csproj.AssemblyReference.cache
+C:\elver\Proyecto Alejandria\Alejandria.Services\obj\Debug\net7.0\Alejandr.99F896C7.Up2Date

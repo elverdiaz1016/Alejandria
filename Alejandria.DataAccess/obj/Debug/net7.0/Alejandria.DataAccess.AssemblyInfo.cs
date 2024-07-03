@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alejandria.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16befc5a04309fde8b43b6091cb1d5f79edb43b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8831298bf2c9ed15bdb1824d9c219280e028726f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alejandria.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alejandria.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

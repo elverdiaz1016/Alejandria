@@ -18,16 +18,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\elver\Proyecto Alejandria\Alejandria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/elver/Proyecto Alejandria/Alejandria/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/elver/Proyecto Alejandria/Alejandria/Views/Autor/Formulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/elver/Proyecto Alejandria/Alejandria/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/elver/Proyecto Alejandria/Alejandria/Views/Autor/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JcTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/elver/Proyecto Alejandria/Alejandria/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[C:/elver/Proyecto Alejandria/Alejandria/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/elver/Proyecto Alejandria/Alejandria/Views/Libro/Formulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9cRm9ybXVsYXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/elver/Proyecto Alejandria/Alejandria/Views/Libro/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicm9cTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/elver/Proyecto Alejandria/Alejandria/Views/Shared/_ValidationScriptsPartial.cshtml]

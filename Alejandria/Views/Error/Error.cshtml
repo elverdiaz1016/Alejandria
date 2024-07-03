@@ -1,0 +1,17 @@
+﻿@model string;
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">Ocurrió un error al procesar tu solicitud.</h2>
+
+<h3>Modo de Desarrollo</h3>
+<p>
+    Cambiar al entorno de <strong>Desarrollo</strong> mostrará información más detallada sobre el error que ocurrió.
+</p>
+<p>
+    <strong>El entorno de Desarrollo no debe estar habilitado para aplicaciones desplegadas.</strong>
+    Puede resultar en mostrar información sensible de excepciones a los usuarios finales.
+    Para depuración local, habilita el entorno de <strong>Desarrollo</strong> configurando la variable de entorno <strong>ASPNETCORE_ENVIRONMENT</strong> a <strong>Development</strong>
+    y reiniciando la aplicación.
+</p>
+<div class="container">
+    @Model
+</div>

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Alejandria.ViewModels/1.0.0": {
+        "dependencies": {
+          "Alejandria.Models": "1.0.0"
+        },
         "runtime": {
           "Alejandria.ViewModels.dll": {}
+        }
+      },
+      "Alejandria.Models/1.0.0": {
+        "runtime": {
+          "Alejandria.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Alejandria.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alejandria.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

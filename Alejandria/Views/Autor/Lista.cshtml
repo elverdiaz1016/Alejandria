@@ -1,0 +1,63 @@
+﻿@model ListarBuscarAutorViewModel;
+
+<div class="row">
+    <h3 class="col-xl-7 col-md-7 col-sm-7 col-7">Autores</h3>
+    <div class="bg-white col-xl-5 col-md-5 col-sm-5 col-5 ">
+        <form class="d-flex" asp-action="BuscarPorNombre" role="search">
+            <input asp-for="NombreBuscar" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success " type="submit">Buscar</button>
+        </form>
+    </div>
+</div>
+<hr />
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Error:</strong> @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<br />
+<form asp-controller="Autor" asp-action="Formulario" class="d-flex float-end">
+    <button class="btn btn-outline-success mb-2 " type="submit">
+        Crear
+    </button>
+</form>
+<table class="table table-bordered border-success table-success  table-sm table-striped table-bordered ">
+    <thead>
+        <tr class="">
+            <th>Nombre</th>
+            <th>Edad</th>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Autor autor in Model.Autores!)
+        {
+            <tr>
+                <td class="opacity-75">@autor.Nombre</td>
+                <td>@autor.Edad </td>
+                <td>
+                    <div class="row">
+                        <form class="col-1" asp-action="Eliminar" asp-route-Id="@autor.Id" method="post">
+                            <button type="submit" class="bg-danger" disabled="@(autor.Libros.Count > 0 )">
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                        </form>
+                        <form class="col-1" asp-action="Formulario" method="get">
+                            <input asp-for="@autor.Id" hidden />
+                            <input asp-for="@autor.Nombre" hidden />
+                            <input asp-for="@autor.Edad" hidden />
+                            <button type="submit" class="bg-info">
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
